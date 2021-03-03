@@ -20,4 +20,3 @@ const habitSchema = mongoose.Schema({
 
 const Habit = mongoose.model('habit', habitSchema)
 
-export default Habit

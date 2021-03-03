@@ -1,5 +1,5 @@
 const express = require('express')
-const { getUser, createUser } = require('../controllers/auth')
+const { getUser, createUser } = require('../controllers/auth.js')
 
 
 const router = express.Router();
@@ -7,5 +7,4 @@ const router = express.Router();
 router.get('/login', getUser)
 router.get('/signup', createUser)
 
-
-export default router;
+module.exports = router;

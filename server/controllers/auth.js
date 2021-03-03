@@ -1,18 +1,21 @@
 const userProfile = require('../models/User')
 
-export const getUser = async (req, res) => {
-    try {
+module.exports = {
 
-    } catch (error) {
+    getUser: (req, res) => {
+        try {
+            res.send("this works")
+        } catch (error) {
 
-    }
+        }
 
-}
+    },
+    createUser: async (req, res) => {
+        try {
 
-export const createUser = async (req, res) => {
-    try {
+        } catch (error) {
 
-    } catch (error) {
+        }
 
     }
 
