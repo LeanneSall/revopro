@@ -13,10 +13,11 @@ const habitSchema = mongoose.Schema({
     createdAt: {
         type: Date,
         default: new Date()
-    }
+    },
+    progress: Number,
 
 
 })
 
-const Habit = mongoose.model('habit', habitSchema)
+module.exports = Habit = mongoose.model('habit', habitSchema)
 
