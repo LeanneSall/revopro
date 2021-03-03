@@ -1,6 +1,9 @@
-const express = require('express')
+const express = require('express');
+const connectDB = require('./config/db');
 const auth = require('./routes/auth')
 const app = express();
+
+connectDB();
 
 
 app.use(express.json({ extended: false }))

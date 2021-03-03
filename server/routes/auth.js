@@ -4,7 +4,7 @@ const { getUser, createUser } = require('../controllers/auth.js')
 
 const router = express.Router();
 
-router.get('/login', getUser)
-router.get('/signup', createUser)
+router.post('/login', getUser)
+router.post('/signup', createUser)
 
 module.exports = router;
