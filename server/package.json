@@ -1,23 +1,25 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "revopro productivity tracker",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "bcryptjs": "^2.4.3",
-    "concurrently": "^6.0.0",
-    "config": "^3.3.4",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.11.17",
-    "nodemon": "^2.0.7"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node server.js",
     "start": "nodemon server.js"
   },
-  "author": "Leanne Sall",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "nodemon": "^2.0.7"
+  }
 }
