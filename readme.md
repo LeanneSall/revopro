@@ -32,6 +32,9 @@ FRONTEND
   * Accountability partners/groups
   * Goals Log
   * hourly log w/ links to goals log and habits
+  * Savings log
 
 Daily Action => Habits => Goals(Short term or long term)
+Becoming the best person you can be through action and tracking. 
+What do you want to acheive, what have you always wanted to do. 
 Integration with other apps?
