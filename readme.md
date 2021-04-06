@@ -24,14 +24,14 @@ FRONTEND
 * Add Info on a different popups
 * Add common habits to start
 * Add ability to choose different productivity items to have in your dashboard
-* * Journaling
-* * Water intake
-* * Weight Log
-* * Rewards
-* * Pairings
-* * Accountability partners/groups
-* * Goals Log
-* * hourly log w/ links to goals log and habits
+ * Journaling
+ * Water intake
+ * Weight Log
+ * Rewards
+ * Pairings
+ * Accountability partners/groups
+ * Goals Log
+ * hourly log w/ links to goals log and habits
 
 Daily Action => Habits => Goals(Short term or long term)
 Integration with other apps?
