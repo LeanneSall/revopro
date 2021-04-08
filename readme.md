@@ -1,40 +1,67 @@
-RevoPro
+# RevoPro
 
+## Description
+A productivity web app where you can sign up, sign in and create your perfect productivity board. Everything will be there for you and you can drag and drop new productivity features to your dashboard
+## Technologies
+React / NodeJS / MongoDB / Javascript / StyledComponents / HTML 
 
-## Milestone 1
+## Milestones
+Project will have 5 milestones to complete before April 15th
 
-BACKEND
-* Auth
-* Create Habit
+### Milestone 1 
+* Basic Setup Backend Frontend
+* Research packages for productivity widgets
+* BackEnd/Auth
+    * Login
+    * Register
+    * Habits
+* UI Front End
+    * Login
+    * Register
+    * Dashboard
 
-FRONTEND
-* Landing Page
-* Sign Up/Sign In
-* Dashboard Page
+### Milestone 2 
+* Pop up info for Users after signing up
+* Questionnaire upon signup
+* Create Habits Widget
+    * Allow habits widget to be dragged and dropped
+    * Have User be able to enter in new habits and track for 60 day period for 'new' habits using bar
+    * Have user be able to enter in current habits and track consistantly using calendar
+    * upon clicking widget go to specific habit page
+ 
+### Milestone 3
+* Start seperate habit page to include what is in the dashboard
+* Have option for dashboard metrics rather than the item itself
+* Add option for new simple widgets such as Pomodoro Timer, Journal and water tracker
 
-## MileStone 2
-* Have User Create Habit and store in database
-* Have User Create Multiple Habits
-* Implement 60 day new habit start
-* Polish Dashboard UI
+### Milestone 4 
+* Add notifications for users to track or do something
+* Add more complex widgets such as meditation and goals 
 
-## Features Step 1
-* Mobile functionality
-* View habits on calendar view or static
+### Milestone 5 
+* Clean up UI for really smooth customer experience
+* Tackle any bugs that have come up in milestones 1,2, 3 and 4
+* Extra design features, make sure everything is mobile and desktop usable
 
-## Features Step 2
-* Add Info on a different popups
-* Add common habits to start
-* Add ability to choose different productivity items to have in your dashboard
-  * Journaling
-  * Water intake
-  * Weight Log
-  * Rewards
-  * Pairings
-  * Accountability partners/groups
-  * Goals Log
-  * hourly log w/ links to goals log and habits
-  * Savings log
+## Design
+Figma Images coming soon!
+
+## Installation
+No need for installation please visit website
+
+## Requirments
+
+### Functional
+* Users login/Logout/Auth
+* Can create a habit and have it able to track
+
+### Non Functional
+* Preformance
+* Security
+
+## Features
+* More Widgets to add
+* More information
 
 Daily Action => Habits => Goals(Short term or long term)
 Becoming the best person you can be through action and tracking. 
