@@ -9,11 +9,11 @@ router.get('/', (req, res) => {
     res.send('make habit')
 });
 
-router.patch('/', (req, res) => {
+router.put('/:id', (req, res) => {
     res.send('make habit')
 });
 
-router.delete('/', (req, res) => {
+router.delete('/:id', (req, res) => {
     res.send('make habit')
 });
 
