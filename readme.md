@@ -2,9 +2,11 @@ RevoPro
 
 
 ## Milestone 1
+
 BACKEND
 * Auth
 * Create Habit
+
 FRONTEND
 * Landing Page
 * Sign Up/Sign In
